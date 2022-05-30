@@ -69,7 +69,8 @@
                     <Form Action="process.php" method= "POST">
                         <div>
                          <label>First name</label>
-                         <input type="text" name="irstName">
+                         <input type="text" name="irstName"
+                           placeholder="enter first name">
                         </div>
                         <br>
                     </div>
@@ -80,11 +81,58 @@
                 <br>
                </div>
                      <label>Email</label>
-                     <input type="text" name="Email">
+                     <input type="email" name="Email">
                 </div>
-
+                <br>
+                <br>
+            </div>
+                  <label>Message</label>
+                  <textarea>name="Message"></textarea>
+             </div>
+             <br> 
+            </div>
+            <br>
+            <label>Gender</label>
+            <select name="gender">
+                <option value="Male"> Male</option>
+                <option value="Female"> Female</option>
+                <option value="Other"> Other</option>
+            </select>
+       </div>
+       <div>
+           <br>
+           <label> Age:</label>
+           <input type="number" name="age"
+           value="30">
+       </div>
+       <br>
+       <div>
+           <label>birthday:</label>
+           <input type="date" name="birthday">
+       </div>
+       <br>
+       <input type="submit" name="Submit"
+       value="Submit">
+ 
                     </Form>
 
+                    <!--button-->
+                    <button> Click me!</button>
+                    <div>
+
+                    </div>
+
+                    <!--Image-->
+                    <a href="images (1).jpg">
+                      <img src="images (1).jpg" width="200px">
+                    </a>
+                    <!--Quotations-->
+                    <blockquote cite="http://travestymedia.com">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore inventore natus eos voluptatem maxime. Explicabo eaque ex, alias odit cupiditate accusamus iusto, distinctio quam nam, labore ipsum optio ad eius?
+                    </blockquote>
+
+                    <p> The <abbr title="World WIde Web"> WWW</abbr is awesome</p>
+                        <p><cite> HTIML Crash Course by Brad Travesty</p>
                     <div style="margin-top:500px"></div>
 </body>
 </html>
